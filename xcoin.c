@@ -32,7 +32,7 @@ void tedcoin_hash(const char* input, char* output)
     sph_simd512_context		ctx_simd1;
     sph_echo512_context		ctx_echo1;
 
-    //these uint512 in the c++ source of the client are backed by an array of uint32
+    //these uint512 in the c++ source of the client are backed by an array of uint32.
     uint32_t hashA[16], hashB[16];	
 
     sph_blake512_init(&ctx_blake);
