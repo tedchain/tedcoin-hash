@@ -13,7 +13,7 @@ extern "C"{
  *  SPH_KECCAK_64          use a 64-bit type
  *  SPH_KECCAK_UNROLL      number of loops to unroll (0/undef for full unroll)
  *  SPH_KECCAK_INTERLEAVE  use bit-interleaving (32-bit type only)
- *  SPH_KECCAK_NOCOPY      do not copy the state into local variables
+ *  SPH_KECCAK_NOCOPY      do not copy the state into local variables.
  * 
  * If there is no usable 64-bit type, the code automatically switches
  * back to the 32-bit implementation.
